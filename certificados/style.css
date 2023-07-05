@@ -20,7 +20,7 @@ body * {
   padding: 0 24px;
 }
 
-#underConstruction p {
+#underConstruction h1 {
   display: block;
   position: relative;
   font-size: 40px;
@@ -28,6 +28,11 @@ body * {
   left: 75px;
   color: rgb(255, 165, 0);
   font-weight: 900;
+}
+
+#multiText {
+  color: rgb(255, 165, 0);
+  text-transform: capitalize;
 }
 
 #underConstruction img {

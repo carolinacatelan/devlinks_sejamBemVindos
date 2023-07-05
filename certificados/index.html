@@ -17,7 +17,7 @@
   <body>
     <div id="container">
       <div id="underConstruction">
-        <p>Página em construção</p>
+        <h1>Página em <span id="multiText"></span></h1>
         <img
           src="../assets/underConstruction.png"
           alt="Página em construção"
@@ -25,5 +25,14 @@
       </div>
       </div>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed("#multiText", {
+        strings: ["construção"],
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      })
+    </script>
   </body>
 </html>
