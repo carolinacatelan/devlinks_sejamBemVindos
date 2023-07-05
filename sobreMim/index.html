@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/aba.png" />
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="aboutMy cols">
+        <span id="topline">Olá</span>
+        <h1>Sou <span id="multiText"></span></h1>
+        <e>
+          Tenho experiência de um ano em desenvolvimento
+          web, trabalhando com backend em C# <br> e frontend com Angular.
+          Durante esse período, tive a oportunidade de contribuir para uma instituição
+          bancária focada na antecipação de recebíveis, venda e compra de títulos. Atualmente, estou em busca de novas oportunidades no
+          mercado de trabalho.
+        </p>
+        <div id="skills">
+          <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg">
+          <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" >
+          <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg">
+          <img height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+          <img height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+          <img height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+        </div>
+      </div>
+      <div id="imgAnimation">
+        <div class="imgbox">
+          <img src="../assets/imgCode.png" id="imgCode" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed("#multiText", {
+        strings: ["front-end", "mobile", "developer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      })
+    </script>
+  </body>
+</html>

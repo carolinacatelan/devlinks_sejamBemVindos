@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: white;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+
+#underConstruction p {
+  display: block;
+  position: relative;
+  font-size: 40px;
+  top: 40px;
+  left: 75px;
+  color: rgb(255, 165, 0);
+  font-weight: 900;
+}
+
+#underConstruction img {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  top: 80px;
+  left: 100px;
+}
